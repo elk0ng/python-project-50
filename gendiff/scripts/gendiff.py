@@ -2,7 +2,7 @@
 
 
 import argparse
-from gendiff.diff import generate_diff
+from gendiff.scripts import generate_diff
 
 
 string = 'Compares two configuration files and shows a difference.'
