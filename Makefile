@@ -12,3 +12,8 @@ package-reinstall:
 
 gendiff:
 	uv run gendiff
+
+lint:
+	uv run ruff gendiff
+
+check: test lint
